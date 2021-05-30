@@ -169,11 +169,13 @@ align-items: center;
     text-align: center;
     margin: 30px 0px;
 }
-.blok-title:hover , .blok-about:hover{
+.blok-title:hover , .blok-info:hover{
     color: #FFAB1F;
     transition: 0.3s;
+    border: 2px solid #FFAB1F;
 }
-.blok-info{
+ .blok-info{
     padding: 20px;
-    
+    text-align: justify;
+    letter-spacing: 1.2px;
 }
