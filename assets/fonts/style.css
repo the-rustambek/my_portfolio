@@ -103,7 +103,7 @@ margin-bottom: 80px;
     background-color: #FFAB1F;
     color: white;
     padding: 20px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .sidebar-title{
     margin-bottom: 20px;
@@ -121,18 +121,59 @@ height: 10px;
 background-color: #FFAB1F;
 border-radius: 50%;
 }
-.box-picture{
+/* .box-picture{
     width: 375px;
     height: 400px;
     background-color: #FFAB1F;
-    /* border-radius: 30% 0% 40% 0%; */
-    border-radius: 0% 0% 70% 70%;
+    border-radius: 70% 8% 70% 7%;
 }
 .box-avatar{
     margin-top: 20px;
     margin-left: 20px;
-    width: 300px;
-    height: 350px;
-    /* border-radius: 30% 0% 40% 0%; */
+    width: 320px;
+    height: 360px;
     border-radius: 0% 0% 70% 70%;
+    border-radius:50%;
+} */
+.box-avatar{
+    border-radius: 0% 0% 50% 50%;
+}
+.box{
+    padding-bottom: 50px;
+}
+.button-groups{
+    display:flex;
+justify-content:center;
+align-items: center;
+margin-top: 50px;
+align-items: center;
+}
+.box-btn{
+    background-color: black;
+    border: none;
+}
+.box-btn .dot{
+    margin:0px 20px;
+}
+.box-btn:hover {
+    
+    border:1px solid #FFAB1F;
+}
+.blok .container .row{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.blok-title{
+    text-align: center;
+    margin: 30px 0px;
+}
+.blok-title:hover , .blok-about:hover{
+    color: #FFAB1F;
+    transition: 0.3s;
+}
+.blok-info{
+    padding: 20px;
+    
 }
