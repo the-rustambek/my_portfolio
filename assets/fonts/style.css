@@ -1,0 +1,138 @@
+.header{
+    margin-top: 20px;   
+}
+body{
+background-color: black;
+}
+.header-link, .wrapper-job , .wrapper-title{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFAB1F;
+}
+.header-btn{
+color: white;
+font-weight:700;
+background-color:#FFAB1F;
+border-radius: 20px;
+padding: 5px 20px;
+}
+.header-btn:hover{
+    color: #FFAB1F;
+    background-color: white;
+    border: 2px solid #FFAB1F;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.header-link:hover{
+    transition: 0.3s;
+    border: 1px solid #FFAB1F;
+    color: #FFAB1F;
+    background-color: white;
+    padding: 5px 20px;
+}
+.header-title{
+    color: #FFAB1F;
+}
+.wrapper , .sidebar{
+    margin-top: 100px;
+margin-bottom: 80px;
+}
+.wrapper{
+    background-image: url("/assets/img/BulletPoints.png"),url("/assets/img/BulletPoints.png");
+    background-repeat: no-repeat;
+    background-size: 20%,20%;
+    background-position: top 60% left 50%, top 80% left 10%;   
+}
+.wrapper-avatar{
+    width: 400px;
+    height: 400px;
+    border-radius: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.wrapper-picture{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-text, .wrapper-title , .wrapper-job{
+    font-size: 40px;
+    font-weight: 600;
+    color:white;
+}
+.wrapper-info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.wrapper-about{
+    color:#ACACBF;
+}
+.sidebar-part{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    border:1px solid rgb(218, 218, 218);
+    border-radius:10px;
+    padding: 15px;
+}
+.sidebar-true{
+    background-color: #FFAB1F;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.card{
+    width: 25%;
+    color: #FFAB1F;
+    border: 1px solid #FFAB1F;
+    padding: 20px 25px;
+}
+.sidebar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card:hover{
+    background-color: #FFAB1F;
+    color: white;
+    padding: 20px;
+    transition: 0.5s;
+}
+.sidebar-title{
+    margin-bottom: 20px;
+}
+.sidebar {
+    /* background-image: url("/assets/img/Dots.png"),url("/assets/img/Dots.png"); */
+    background-repeat: no-repeat;
+    background-size: contain 20%, contain 20%;
+    background-position: bottom 0% left 0%, bottom 0% left 35%;
+    padding-bottom: 80px;
+}
+.dot{
+width: 10px;
+height: 10px;
+background-color: #FFAB1F;
+border-radius: 50%;
+}
+.box-picture{
+    width: 375px;
+    height: 400px;
+    background-color: #FFAB1F;
+    /* border-radius: 30% 0% 40% 0%; */
+    border-radius: 0% 0% 70% 70%;
+}
+.box-avatar{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    height: 350px;
+    /* border-radius: 30% 0% 40% 0%; */
+    border-radius: 0% 0% 70% 70%;
+}
