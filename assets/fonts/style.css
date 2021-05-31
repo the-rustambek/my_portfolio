@@ -179,3 +179,10 @@ align-items: center;
     text-align: justify;
     letter-spacing: 1.2px;
 }
+
+.blok{
+    background-image: url("/assets/img/BulletPoints.png"),url("/assets/img/Path\ 1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: 10%,15%;
+    background-position: top 100% left 0%, top 98% left 105%;
+}
