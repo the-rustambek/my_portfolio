@@ -18,6 +18,7 @@ font-weight:700;
 background-color:#FFAB1F;
 border-radius: 20px;
 padding: 5px 20px;
+border:2px solid black;
 }
 .header-btn:hover{
     color: #FFAB1F;
@@ -25,6 +26,9 @@ padding: 5px 20px;
     border: 2px solid #FFAB1F;
     font-weight: 600;
     transition: 0.3s;
+}
+.header-link{
+    border:1px solid black;
 }
 .header-link:hover{
     transition: 0.3s;
@@ -151,6 +155,7 @@ align-items: center;
 .box-btn{
     background-color: black;
     border: none;
+    border: 1px solid black;
 }
 .box-btn .dot{
     margin:0px 20px;
@@ -168,6 +173,7 @@ align-items: center;
 .blok-title{
     text-align: center;
     margin: 30px 0px;
+    border: 2px solid black;
 }
 .blok-title:hover , .blok-info:hover{
     color: #FFAB1F;
@@ -178,11 +184,57 @@ align-items: center;
     padding: 20px;
     text-align: justify;
     letter-spacing: 1.2px;
+    border: 2px solid black;
 }
-
+.box, .aside, .blok{
+    padding:100px 0px;
+}
 .blok{
     background-image: url("/assets/img/BulletPoints.png"),url("/assets/img/Path\ 1\ \(1\).png");
     background-repeat: no-repeat;
     background-size: 10%,15%;
-    background-position: top 100% left 0%, top 98% left 105%;
+    background-position: top 100% left 0%, top 125% left 105%;
+}
+.skill-item{
+    position: relative;
+    width: 80%;
+    margin-bottom: 10px;
+    
+}
+.aside{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+}
+.prosent{
+padding:5px 0px;
+    position: absolute;
+    top: 50%;
+    background-color: #FFAB1F;
+    transform: translateY(-50%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: -1;
+}
+.aside-title{
+font-size: 30px;
+}
+.aside-text{
+    margin: 30px 0px;
+}
+
+.aside-item{
+    background-color: white;
+    color: #FFAB1F;
+    border: 2px solid #FFF;
+    padding: 10px;
+
+}
+
+.css, .bootstrap, .camera{
+    margin-left: 150px;
+}
+
+.row .aside-item .fab, .fas{
+ font-size: 50px;
 }
