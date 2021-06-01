@@ -13,44 +13,51 @@
 
     <link rel="stylesheet" href="./assets/fonts/style.css">
 </head>
-
 <body>
-    <!-- <div class="header">
-        <div class="container d-flex  align-items-center">
-            <h5 class="header-title">
+
+    <div class="nav-navbar">
+        <div class="container d-flex  align-items-center flex-row justify-content-between pt-4">
+            <h5 class="navbar-title">
                 rustambek.uz
             </h5>
-            <ul class="header-list mt-4 list-unstyled  row ">
+            <!-- <button class="bar-button d-lg-none d-block">
+                <div class="spans d-flex flex-column">
+                    <span class="bar-span"></span>
+                    <span class="bar-span"></span>
+                    <span class="bar-span"></span>
+                </div>
+            </button> -->
+            <ul class="navbar-list d-lg-flex flex-row m-0 align-items-center justify-content-around d-none list-unstyled  ">
 
-                <li class="header-item col-lg-1 mx-3">
-                    <a href="#wrapper" class="header-link">
+                <li class="navbar-item  mx-3">
+                    <a href="#wrapper" class="navbar-link ms-2">
                         Home
                     </a>
                 </li>
-                <li class="header-item col-lg-1 mx-3">
-                    <a href="#" class="header-link">
+                <li class="navbar-item  mx-3">
+                    <a href="#" class="navbar-link ms-2">
                         About
                     </a>
                 </li>
-                <li class="header-item col-lg-2 mx-3">
-                    <a href="#portfolio" class="header-link">
+                <li class="navbar-item  mx-3">
+                    <a href="#portfolio" class="navbar-link ms-2">
                         Portfolio
                     </a>
                 </li>
-                <li class="header-item col-lg-2 mx-3">
-                    <a href="#contact" class="header-link">
+                <li class="navbar-item mx-3">
+                    <a href="#contact" class="navbar-link ms-2">
                         Contact
                     </a>
                 </li>
-                <li class="header-item col-lg-3 px-3">
-                    <a href="#message" class=" header-btn header-link ">
+                <li class="navbar-item  px-3">
+                    <a href="#message" class=" navbar-btn navbar-link ms-2 ">
                         Send Message
                     </a>
                 </li>
             
         
             </ul>
-            <button class="d-lg-none d-block">
+            <button class="d-lg-none d-block menu-toggle">
                 <i class="fas fa-bars   ">
 
                 </i>
@@ -59,36 +66,13 @@
 
 
         </div>
-    </div> -->
+    </div>
 
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container d-flex  align-items-center justify-content-between">
-          <a class="navbar-brand " href="#">rustambek.uz</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-light"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a href="#wrapper" class="header-link nav-link">
-                    Home
-                </a>
-              <a class="nav-link header-link" href="#">About</a>
-              <a href="#portfolio" class=" nav-link header-link">
-                Portfolio
-            </a>
-              <a href="#contact" class="header-link nav-link">
-                Contact
-            </a>
-              <a href="#message" class=" header-btn header-link nav-link">Send Message</a>
-            </div>
-          </div>
-        </div>
-      </nav>
 
     <div class="wrapper" id="wrapper">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 wrapper-info " data-aos="fade-down-right" data-aos-duration="3000"
+            <div class="row ">
+                <div class="col-12 col-md-5 wrapper-info " data-aos="fade-down-right" data-aos-duration="3000"
                     data-aos-delay="1000">
                     <p class="wrapper-text ">Hello I'm <span class=""><i>Rustambek</i></span></p>
                     <p class="wrapper-job">
@@ -98,17 +82,18 @@
                         I hope you like this site, try it and rate it. I've seen a lot of projects in my one year ...
                     </p>
                 </div>
-                <div class=" wrapper-picture col-lg-6" data-aos="fade-down-left" data-aos-duration="3000"
+                <div class=" wrapper-picture col-12 col-md-6" data-aos="fade-down-left" data-aos-duration="3000"
                     data-aos-delay="1000">
                     <img class="wrapper-avatar" src="./assets/img/header (1).png" alt="">
                 </div>
 
             </div>
-        </div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        </div>
+        <!-- <svg  class="svg" xmlns="http://www.w3.org/2000/svg"viewBox="0 0 1440 320">
             <path fill="#FFAB1F" fill-opacity="1"
                 d="M0,288L8,282.7C16,277,32,267,48,250.7C64,235,80,213,96,213.3C112,213,128,235,144,208C160,181,176,107,192,69.3C208,32,224,32,240,58.7C256,85,272,139,288,181.3C304,224,320,256,336,234.7C352,213,368,139,384,106.7C400,75,416,85,432,106.7C448,128,464,160,480,154.7C496,149,512,107,528,90.7C544,75,560,85,576,106.7C592,128,608,160,624,197.3C640,235,656,277,672,261.3C688,245,704,171,720,165.3C736,160,752,224,768,261.3C784,299,800,309,816,293.3C832,277,848,235,864,229.3C880,224,896,256,912,240C928,224,944,160,960,128C976,96,992,96,1008,85.3C1024,75,1040,53,1056,69.3C1072,85,1088,139,1104,154.7C1120,171,1136,149,1152,149.3C1168,149,1184,171,1200,181.3C1216,192,1232,192,1248,176C1264,160,1280,128,1296,133.3C1312,139,1328,181,1344,181.3C1360,181,1376,139,1392,149.3C1408,160,1424,224,1432,256L1440,288L1440,320L1432,320C1424,320,1408,320,1392,320C1376,320,1360,320,1344,320C1328,320,1312,320,1296,320C1280,320,1264,320,1248,320C1232,320,1216,320,1200,320C1184,320,1168,320,1152,320C1136,320,1120,320,1104,320C1088,320,1072,320,1056,320C1040,320,1024,320,1008,320C992,320,976,320,960,320C944,320,928,320,912,320C896,320,880,320,864,320C848,320,832,320,816,320C800,320,784,320,768,320C752,320,736,320,720,320C704,320,688,320,672,320C656,320,640,320,624,320C608,320,592,320,576,320C560,320,544,320,528,320C512,320,496,320,480,320C464,320,448,320,432,320C416,320,400,320,384,320C368,320,352,320,336,320C320,320,304,320,288,320C272,320,256,320,240,320C224,320,208,320,192,320C176,320,160,320,144,320C128,320,112,320,96,320C80,320,64,320,48,320C32,320,16,320,8,320L0,320Z">
             </path>
-        </svg>
+        </svg> -->
     </div>
 
 
@@ -182,10 +167,11 @@
                 <div class="dot"></div>
 
             </div>
+            
             <div class=" card g-3 sidebar-part" data-aos-duration="1000" data-aos-delay="1000" data-aos="zoom-in-right">
                 <div class="sidebar-true"></div>
                 <div class="">
-                    <h2 class="sidebar-title"> FrontEnd Dev</h2>
+                    <h2 class="sidebar-title"> FrontEnd </h2>
                     <p class="sidebar-text">
                         I have a year of skills and experience in this field. This has become my daily routine
                     </p>
@@ -712,7 +698,7 @@
                         <input class="message-input message-input--margin col-lg-5" placeholder="Name" name="Name"
                             type="text">
                         <input type="email" class=" message-input col-lg-5" name="email" placeholder="Email">
-                        <textarea class="message-textarea col-lg-11" type="text" name="message" id="message" cols="30"
+                        <textarea class="message-textarea 1" type="text" name="message" id="message" cols="30"
                             rows="10" placeholder="Message"></textarea>
                         <button type="submit" class="message-btn col-lg-3">
                             Submit</button>

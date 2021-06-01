@@ -1,13 +1,13 @@
 html{
     scroll-behavior: smooth;
 }
-.header, .content-group{
+.navbar, .content-group{
     margin-top: 20px;   
 }
 body{
 background-color: black;
 }
-.header-link, .wrapper-job , .wrapper-title{
+.navbar-link, .wrapper-job , .wrapper-title{
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
@@ -15,7 +15,7 @@ background-color: black;
     text-align: center;
     color: #FFAB1F;
 }
-.header-btn{
+.navbar-btn{
 color: white;
 font-weight:600;
 background-color:#FFAB1F;
@@ -23,27 +23,33 @@ border-radius: 20px;
 padding: 5px 20px;
 border:2px solid black;
 }
-.header-btn:hover{
+.navbar-btn:hover{
     color: #FFAB1F;
     background-color: white;
     border: 2px solid #FFAB1F;
     font-weight: 600;
     transition: 0.3s;
 }
-.header-link{
+.navbar-link{
     border:1px solid black;
     padding: 5px 20px;
 }
-.header-link:hover{
+.navbar-link:hover{
     transition: 0.3s;
     border: 1px solid #FFAB1F;
     color: #FFAB1F;
     background-color: white;
     padding: 5px 20px;
 }
-.header-title{
+.navbar-title, .menu-toggle{
     color: #FFAB1F;
 }
+.menu-toggle .fas{
+    /* height: 35px;
+    width: 35px; */
+    font-size: 25px;
+}
+
 
 .wrapper , .sidebar{
     margin-top: 100px;
@@ -56,8 +62,8 @@ margin-bottom: 80px;
     background-position: top 60% left 50%;   
 }
 .wrapper-avatar{
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
     border-radius: 0px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -71,6 +77,10 @@ margin-bottom: 80px;
     font-size: 40px;
     font-weight: 600;
     color:white;
+}
+.wrapper-job{
+    font-size: 21px;
+    font-weight: 500px;
 }
 .wrapper-info{
     display: flex;
@@ -325,4 +335,21 @@ margin: 35px 50px;
 .contact-link .fab:hover{
     color: #FFAB1F;
     transition: 0.3s;   
+}
+
+@media(max-width:1160px){
+    .container{
+        width: 1020px;
+    }
+    .sidebar-part{
+        width: 28%;
+    }
+}
+@media(max-width:1000px){
+    .container{
+        width: 900px;
+    }
+    .sidebar-part{
+        width: 25%;
+    }
 }
