@@ -1,4 +1,7 @@
-.header{
+html{
+    scroll-behavior: smooth;
+}
+.header, .content-group{
     margin-top: 20px;   
 }
 body{
@@ -14,7 +17,7 @@ background-color: black;
 }
 .header-btn{
 color: white;
-font-weight:700;
+font-weight:600;
 background-color:#FFAB1F;
 border-radius: 20px;
 padding: 5px 20px;
@@ -29,6 +32,7 @@ border:2px solid black;
 }
 .header-link{
     border:1px solid black;
+    padding: 5px 20px;
 }
 .header-link:hover{
     transition: 0.3s;
@@ -40,15 +44,16 @@ border:2px solid black;
 .header-title{
     color: #FFAB1F;
 }
+
 .wrapper , .sidebar{
     margin-top: 100px;
 margin-bottom: 80px;
 }
 .wrapper{
-    background-image: url("/assets/img/BulletPoints.png"),url("/assets/img/BulletPoints.png");
+    background-image: url("/assets/img/BulletPoints.png");
     background-repeat: no-repeat;
-    background-size: 20%,20%;
-    background-position: top 60% left 50%, top 80% left 10%;   
+    background-size: 20%;
+    background-position: top 60% left 50%;   
 }
 .wrapper-avatar{
     width: 400px;
@@ -268,8 +273,15 @@ font-size: 30px;
     align-items: center;
     
 }
-.content, .message{
+.content, .message {
     padding:80px 0px;
+
+}
+.message{
+    padding-bottom: 0px;
+}
+.contact{
+    padding-top: 80px;
 }
 .content-thumb{
     border-radius:  50px  0px 50px 0px;
@@ -278,15 +290,40 @@ font-size: 30px;
     margin: 100px 0px;
 }
 .message-input--margin{
-    margin-right: 10px;
+    margin-right: 15px;
 }
 .message-input{
     padding: 10px 20px;
+    width: 45%;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
+
 .message-btn{
-    border: 1px solid white;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 600;
 }
 .message-btn:hover{
-    border: 1px solid #FFAB1F;
+    border: 3px solid #FFAB1F;
+    border-radius: 5px;
+    background-color: white;
     transition: 0.3s;
+    color: #FFAB1F;
+    font-weight: bold;
+}
+.contact-item{
+margin: 35px 50px;
+}
+
+.contact-link .fab{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.contact-link .fab:hover{
+    color: #FFAB1F;
+    transition: 0.3s;   
 }

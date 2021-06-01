@@ -16,47 +16,53 @@
 
 <body>
     <div class="header">
-        <div class="container">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h5 class="header-title">
+                rustambek.uz
+            </h5>
+            <ul class="header-list mt-4 list-unstyled  row ">
 
-            <ul class="header-list list-unstyled row">
-                <li class="header-item col-2">
-                    <h5 class="header-title">
-                        rustambek.uz
-                    </h5>
-                </li>
-                <li class="header-item col-2">
-                    <a href="#" class="header-link">
+                <li class="header-item col-lg-1 mx-3">
+                    <a href="#wrapper" class="header-link">
                         Home
                     </a>
                 </li>
-                <li class="header-item col-2">
+                <li class="header-item col-lg-1 mx-3">
                     <a href="#" class="header-link">
                         About
                     </a>
                 </li>
-                <li class="header-item col-2">
-                    <a href="#" class="header-link">
+                <li class="header-item col-lg-2 mx-3">
+                    <a href="#portfolio" class="header-link">
                         Portfolio
                     </a>
                 </li>
-                <li class="header-item col-2">
-                    <a href="#" class="header-link">
+                <li class="header-item col-lg-2 mx-3">
+                    <a href="#contact" class="header-link">
                         Contact
                     </a>
                 </li>
-                <li class="col-2">
-                    <button class="btn header-btn">
+                <li class="header-item col-lg-3 px-3">
+                    <a href="#message" class=" header-btn header-link ">
                         Send Message
-                    </button>
+                    </a>
                 </li>
-
+            
+        
             </ul>
+            <button class="d-lg-none d-block">
+                <i class="fas fa-bars   ">
+
+                </i>
+            </button>
+            
+
 
         </div>
     </div>
 
 
-    <div class="wrapper">
+    <div class="wrapper" id="wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 wrapper-info " data-aos="fade-down-right" data-aos-duration="3000"
@@ -75,16 +81,15 @@
                 </div>
 
             </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        </div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#FFAB1F" fill-opacity="1"
-                d="M0,96L13.3,90.7C26.7,85,53,75,80,90.7C106.7,107,133,149,160,165.3C186.7,181,213,171,240,176C266.7,181,293,203,320,224C346.7,245,373,267,400,234.7C426.7,203,453,117,480,112C506.7,107,533,181,560,192C586.7,203,613,149,640,133.3C666.7,117,693,139,720,160C746.7,181,773,203,800,202.7C826.7,203,853,181,880,176C906.7,171,933,181,960,154.7C986.7,128,1013,64,1040,64C1066.7,64,1093,128,1120,160C1146.7,192,1173,192,1200,170.7C1226.7,149,1253,107,1280,106.7C1306.7,107,1333,149,1360,176C1386.7,203,1413,213,1427,218.7L1440,224L1440,320L1426.7,320C1413.3,320,1387,320,1360,320C1333.3,320,1307,320,1280,320C1253.3,320,1227,320,1200,320C1173.3,320,1147,320,1120,320C1093.3,320,1067,320,1040,320C1013.3,320,987,320,960,320C933.3,320,907,320,880,320C853.3,320,827,320,800,320C773.3,320,747,320,720,320C693.3,320,667,320,640,320C613.3,320,587,320,560,320C533.3,320,507,320,480,320C453.3,320,427,320,400,320C373.3,320,347,320,320,320C293.3,320,267,320,240,320C213.3,320,187,320,160,320C133.3,320,107,320,80,320C53.3,320,27,320,13,320L0,320Z">
+                d="M0,288L8,282.7C16,277,32,267,48,250.7C64,235,80,213,96,213.3C112,213,128,235,144,208C160,181,176,107,192,69.3C208,32,224,32,240,58.7C256,85,272,139,288,181.3C304,224,320,256,336,234.7C352,213,368,139,384,106.7C400,75,416,85,432,106.7C448,128,464,160,480,154.7C496,149,512,107,528,90.7C544,75,560,85,576,106.7C592,128,608,160,624,197.3C640,235,656,277,672,261.3C688,245,704,171,720,165.3C736,160,752,224,768,261.3C784,299,800,309,816,293.3C832,277,848,235,864,229.3C880,224,896,256,912,240C928,224,944,160,960,128C976,96,992,96,1008,85.3C1024,75,1040,53,1056,69.3C1072,85,1088,139,1104,154.7C1120,171,1136,149,1152,149.3C1168,149,1184,171,1200,181.3C1216,192,1232,192,1248,176C1264,160,1280,128,1296,133.3C1312,139,1328,181,1344,181.3C1360,181,1376,139,1392,149.3C1408,160,1424,224,1432,256L1440,288L1440,320L1432,320C1424,320,1408,320,1392,320C1376,320,1360,320,1344,320C1328,320,1312,320,1296,320C1280,320,1264,320,1248,320C1232,320,1216,320,1200,320C1184,320,1168,320,1152,320C1136,320,1120,320,1104,320C1088,320,1072,320,1056,320C1040,320,1024,320,1008,320C992,320,976,320,960,320C944,320,928,320,912,320C896,320,880,320,864,320C848,320,832,320,816,320C800,320,784,320,768,320C752,320,736,320,720,320C704,320,688,320,672,320C656,320,640,320,624,320C608,320,592,320,576,320C560,320,544,320,528,320C512,320,496,320,480,320C464,320,448,320,432,320C416,320,400,320,384,320C368,320,352,320,336,320C320,320,304,320,288,320C272,320,256,320,240,320C224,320,208,320,192,320C176,320,160,320,144,320C128,320,112,320,96,320C80,320,64,320,48,320C32,320,16,320,8,320L0,320Z">
             </path>
         </svg>
     </div>
 
 
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
         <div class="container">
             <div class="dots d-flex justify-content-center flex-column">
                 <div class="dot"></div>
@@ -449,7 +454,7 @@
         </div>
     </div>
     </div>
-    <div class="box">
+    <div class="box" id="box">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 box-picture">
@@ -481,7 +486,7 @@
         </div>
     </div>
 
-    <div class="blok">
+    <div class="blok" id="blok">
         <div class="container">
             <div class="row">
                 <div class="blok-info col-lg-4">
@@ -512,7 +517,7 @@
         </div>
     </div>
 
-    <div class="aside">
+    <div class="aside" id="aside">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -598,141 +603,139 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="content">
-                <div class="container">
-                    <h2 class="content-title text-center">--- My Works ---</h2>
-                    <div class="row content-picture d-flex justify-content-between align-items-center">
-                      
-<!-- 
+        <div class="content" id="portfolio">
+            <div class="container">
+                <h2 class="content-title text-center">--- My Works ---</h2>
+                <div class="row content-picture d-flex justify-content-between align-items-center">
+
+                    <!-- 
                         <div class="col-lg-3 ">
                             <a href="https://the-loop.netlify.app/" class="content-link">
                                 <img class="content-thumb" src="/assets/img/loop.jpg"
                                     alt="" /></a>
                         </div> -->
-                        
-                        <div class="col-lg-3 ">
-                            <a href="https://the-loop.netlify.app/" class="content-link">
-                                <img class="content-thumb" src="https://picsum.photos/300"
-                                    alt="" /></a>
-                        </div>
-                        
-                        <div class="col-lg-3 ">
-                            <a href="https://the-loop.netlify.app/" class="content-link">
-                                <img class="content-thumb" src="https://picsum.photos/300"
-                                    alt="" /></a>
-                        </div>
-                        
-                        <div class="col-lg-3 ">
-                            <a href="https://the-loop.netlify.app/" class="content-link">
-                                <img class="content-thumb" src="https://picsum.photos/300"
-                                    alt="" /></a>
-                        </div>
-                        <!-- <div class="col-lg-3 ">
+
+                    <div class="col-lg-3 ">
+                        <a href="https://the-loop.netlify.app/" class="content-link">
+                            <img class="content-thumb" src="https://picsum.photos/300" alt="" /></a>
+                    </div>
+
+                    <div class="col-lg-3 ">
+                        <a href="https://the-loop.netlify.app/" class="content-link">
+                            <img class="content-thumb" src="https://picsum.photos/300" alt="" /></a>
+                    </div>
+
+                    <div class="col-lg-3 ">
+                        <a href="https://the-loop.netlify.app/" class="content-link">
+                            <img class="content-thumb" src="https://picsum.photos/300" alt="" /></a>
+                    </div>
+                    <!-- <div class="col-lg-3 ">
                             <a href="https://barber-page.netlify.app/" class="content-link">
                             <img class="content-thumb" src="/assets/img/barber.jpg"
                                 alt="" /></a>
                         </div> -->
-                        <!-- <div class="col-lg-3 ">
+                    <!-- <div class="col-lg-3 ">
                             <a href="https://crypto-qu-responsive-bootstrap.netlify.app/" class="content-title">
                                 <img class="content-thumb" src="/assets/img/crypto.jpg"
                                     alt=""></a>
                         </div> -->
-                        <!-- <div class="col-lg-3 ">
+                    <!-- <div class="col-lg-3 ">
                             <a href="https://myportfolio-21.netlify.app/" class="content-link">
                             <img class="content-thumb" src="/assets/img/myportfolio.jpg"
                                 alt="" />
                             </a>
                            
                         </div> -->
-                        <!-- <div class="col-lg-3 ">
+                    <!-- <div class="col-lg-3 ">
                             <a href="https://qubit-figma-project.netlify.app/" class="content-link">
                                 <img class="content-thumb" src="/assets/img/qubit.jpg"
                                     alt="" ></a>                        </div> -->
-                        <!-- <div class="col-lg-3 ">
+                    <!-- <div class="col-lg-3 ">
                             <a href="https://laslesvpn-page.netlify.app/" class="content-link">
                                 <img class="content-thumb" src="/assets/img/lasles.jpg"
                                     alt="" /></a>
                         </div> -->
-                        <!-- <div class="col-lg-3 ">
+                    <!-- <div class="col-lg-3 ">
                             <a href="https://travel-tour-page.netlify.app/" class="content-link">
                                 <img class="content-thumb" src="/assets/img/travel.jpg"
                                     alt="" /></a>
                         </div> -->
-                        <!-- <div class="col-lg-3 ">
+                    <!-- <div class="col-lg-3 ">
                             <a href="https://pixer-page-figma.netlify.app/" class="content-link">
                                 <img class="content-thumb" src="/assets/img/pixer.jpg"
                                     alt="" /></a>
                         </div>
                         -->
-                    </div>
-                    <div class="button-groups">
+                </div>
+                <div class="button-groups content-group">
+                    <button class="box-btn">
+                        <div class="dot"></div>
+                    </button>
+                    <button class="box-btn">
+                        <div class="dot"></div>
                         <button class="box-btn">
                             <div class="dot"></div>
                         </button>
-                        <button class="box-btn">
-                            <div class="dot"></div>
-                            <button class="box-btn">
-                                <div class="dot"></div>
-                            </button>
-                    </div>
+                </div>
+            </div>
+            <div class="message" id="message">
+                <div class="container">
+                    <h2 class="message-title text-center">
+                        Send Message
+                    </h2>
+                    <form class="form row g-3 " method="POST">
+                        <input class="message-input message-input--margin col-lg-5" placeholder="Name" name="Name"
+                            type="text">
+                        <input type="email" class=" message-input col-lg-5" name="email" placeholder="Email">
+                        <textarea class="message-textarea col-lg-11" type="text" name="message" id="message" cols="30"
+                            rows="10" placeholder="Message"></textarea>
+                        <button type="submit" class="message-btn col-lg-3">
+                            Submit</button>
+                    </form>
+                </div>
+            </div>
 
-                    <div class="message">
-                        <div class="container">
-                            <h2 class="message-title text-center">
-                                Send Message
-                            </h2>
-                            <form  class="form row g-3 " method="POST">
-                                <input class="message-input message-input--margin col-lg-5" placeholder="Name" name="Name"
-                                type="text">
-                                <input type="email"class=" message-input col-lg-5" name="email" placeholder="Email">
-                                <textarea class="message-textarea col-lg-10" type="text" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-<button type="submit" class="message-btn col-lg-3">
-SUBMIT
-</button>
-                            </form>
-                        </div>
-                    </div>
+            <div class="contact" id="contact">
+                <div class="container d-flex justify-content-center  align-items-center flex-column">
+                    <h2 class="contact-title">
+                        Contact As
+                    </h2>
+                    <ul class="contact-list d-flex justify-content-center  align-items-center list-unstyled">
+                        <li class="contact-item">
+                            <a href="https://t.me/rustambek_0301" class="contact-link">
+                                <i class="fab fa-telegram"></i></a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://www.facebook.com/mamadaliyev.rustambek" class="contact-link">
 
-                    <div class="contact">
-                        <div class="container">
-                            <h2 class="contact-title">
-                                Contact As
-                            </h2>
-                            <ul class="contact-list">
-                                <li class="contact-item">
-                                    <a href="https://t.me/rustambek_0301" class="contact-link">
-                                        <i class="fab fa-telegram"></i></a>
-                                </li>
-                                <li class="contact-item">
-                                    <a href="https://www.facebook.com/mamadaliyev.rustambek" class="contact-link">
+                                <i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://www.instagram.com/mamadaliyev_rustambek" class="contact-link">
 
-                                        <i class="fab fa-facebook"></i></a>
-                                </li>
-                                <li class="contact-item">
-                                <a href="https://www.instagram.com/mamadaliyev_rustambek" class="contact-link">
+                                <i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://youtube.com/channel/UCAjg8E6sRMqJV35BDZrBqhw" class="contact-link">
 
-                                    <i class="fab fa-instagram"></i></a>
-                            </li>
-                            <li class="contact-item">
-                                <a href="https://youtube.com/channel/UCAjg8E6sRMqJV35BDZrBqhw" class="contact-link">
+                                <i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+                    crossorigin="anonymous">
+                </script>
 
-                                    <i class="fab fa-youtube"></i></a>
-                            </li>
-                            </ul>
-                    </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-                crossorigin="anonymous">
-            </script>
-
-            <script src="./main.js"></script>
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                <script src="./main.js"></script>
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
-            <script>
-                AOS.init();
-            </script>
+                <script>
+                    AOS.init();
+                </script>
 </body>
 
 </html>
