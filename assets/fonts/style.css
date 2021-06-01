@@ -159,8 +159,13 @@ border-radius: 50%;
     border-radius: 0% 0% 70% 70%;
     border-radius:50%;
 } */
+
+.container{
+    /* background-color: red; */
+}
 .box-avatar{
-    border-radius: 0% 0% 50% 50%;
+    border-radius: 10px;
+    width: 90%;
 }
 .box{
     padding-bottom: 50px;
