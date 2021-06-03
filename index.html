@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -71,20 +70,20 @@
 
     <div class="wrapper" id="wrapper">
         <div class="container">
-            <div class="row ">
+            <div class="row  flex-md-row flex-column-reverse">
                 <div class="col-12 col-md-5 wrapper-info " data-aos="fade-down-right" data-aos-duration="3000"
                     data-aos-delay="1000">
                     <p class="wrapper-text ">Hello I'm <span class=""><i>Rustambek</i></span></p>
-                    <p class="wrapper-job">
+                    <p class="wrapper-job mb-4">
                         FRONT-END DEVELOPER
                     </p>
-                    <p class="wrapper-about">
+                    <p class="wrapper-about mt-4">
                         I hope you like this site, try it and rate it. I've seen a lot of projects in my one year ...
                     </p>
                 </div>
                 <div class=" wrapper-picture col-12 col-md-6" data-aos="fade-down-left" data-aos-duration="3000"
                     data-aos-delay="1000">
-                    <img class="wrapper-avatar" src="./assets/img/header (1).png" alt="">
+                    <img class="wrapper-avatar" src="./assets/img/men.jpg" alt="">
                 </div>
 
             </div>
@@ -526,10 +525,12 @@
         </div>
     </div>
 
+
+
     <div class="aside" id="aside">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row flex-lg-row flex-column-reverse">
+                <div class="col-lg-6 col-10">
                     <div class="skills-degree" data-aos="fade-right" data-aos-duration="1200" data-aos-offset="-10"
                         data-aos-easing="ease-in-sine">
                         <h4 class="aside-title">
@@ -578,7 +579,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 aside-info">
+                <div class="col-lg-6 col-10 aside-info">
                     <div class="">
                         <div class="card aside-item  html">
                             <i class="fab fa-html5"></i>
@@ -626,20 +627,35 @@
                                     alt="" /></a>
                         </div> -->
 
-                    <div class="col-lg-3 ">
+                    <!-- <div class="col-lg-3 ">
                         <a href="https://the-loop.netlify.app/" class="content-link">
                             <img class="content-thumb" src="https://picsum.photos/300" alt="" /></a>
+                    </div> -->
+
+                    <div class="col-lg-5 col-10 g-3 mt-4 ">
+                        <div class="img">
+                            <a href="https://the-loop.netlify.app/" class="content-link">
+                                <img class="content-thumb" src="/assets/img/loop.jpg" alt="" /></a>
+                        </div>
+                        <div class="">
+                            <h2 class="text-center maket-title mt-4 ">
+                                Loop
+                            </h2>
+                        </div>
                     </div>
 
-                    <div class="col-lg-3 ">
-                        <a href="https://the-loop.netlify.app/" class="content-link">
-                            <img class="content-thumb" src="https://picsum.photos/300" alt="" /></a>
+                    <div class="col-lg-5 col-10 g-3 mt-4 ">
+                        <div class="img">
+                            <a href="https://the-loop.netlify.app/" class="content-link">
+                                <img class="content-thumb" src="/assets/img/qubit.jpg" alt="" /></a>
+                        </div>
+                        <div class="">
+                            <h2 class="text-center maket-title mt-4 ">
+                                Qubit
+                            </h2>
+                        </div>
                     </div>
 
-                    <div class="col-lg-3 ">
-                        <a href="https://the-loop.netlify.app/" class="content-link">
-                            <img class="content-thumb" src="https://picsum.photos/300" alt="" /></a>
-                    </div>
                     <!-- <div class="col-lg-3 ">
                             <a href="https://barber-page.netlify.app/" class="content-link">
                             <img class="content-thumb" src="/assets/img/barber.jpg"
@@ -695,10 +711,10 @@
                         Send Message
                     </h2>
                     <form class="form row g-3 " method="POST">
-                        <input class="message-input message-input--margin col-lg-5" placeholder="Name" name="Name"
+                        <input class="message-input message-input--margin col-lg-6" placeholder="Name" name="Name"
                             type="text">
-                        <input type="email" class=" message-input col-lg-5" name="email" placeholder="Email">
-                        <textarea class="message-textarea 1" type="text" name="message" id="message" cols="30"
+                        <input type="email" class=" message-input message-input-2 col-lg-6" name="email" placeholder="Email">
+                        <textarea class="message-textarea 1 col-lg-12 p-4" type="text" name="message" id="message" cols="30"
                             rows="10" placeholder="Message"></textarea>
                         <button type="submit" class="message-btn col-lg-3">
                             Submit</button>
