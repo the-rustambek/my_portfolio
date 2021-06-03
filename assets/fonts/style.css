@@ -66,6 +66,7 @@ margin-bottom: 80px;
     width: 380px;
     height: 380px;
     border-radius: 25px;
+    object-fit: cover;
     /* border-top-left-radius: 25px;
     border-bottom-right-radius: 50px; */
 }
@@ -315,11 +316,12 @@ font-size: 30px;
     border-radius:  20px;
     width: 520px;
     height: 250px;
+    transition: 0.6s;
 }
 .content-thumb:hover{
     width: 550px;
     height: 280px;
-    transition: 0.3s;
+    transition: 0.6s;
 }
 @media(max-width:990px){
     .container{
