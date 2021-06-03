@@ -60,7 +60,7 @@ margin-bottom: 80px;
     background-image: url("/assets/img/BulletPoints.png"),url("/assets/img/AS.png");
     background-repeat: no-repeat;
     background-size: 20%,20%;
-    background-position: top 60% left 50%,top 34% left 25%;   
+    background-position: top 60% left 50%,top 42% left 25%;   
 }
 .wrapper-avatar{
     width: 380px;
@@ -75,7 +75,7 @@ margin-bottom: 80px;
     align-items: center;
 }
 .wrapper-text, .wrapper-title , .wrapper-job{
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 600;
     color:white;
 }
@@ -146,6 +146,16 @@ height: 10px;
 background-color: #FFAB1F;
 border-radius: 50%;
 }
+
+/* .box-picture{
+    transform:rotate(360deg);
+    transition: 0.3s;   
+}
+
+.box-picture:hover{
+    transform:rotate(360deg);
+    transition: 0.3s;   
+} */
 /* .box-picture{
     width: 375px;
     height: 400px;
@@ -326,6 +336,21 @@ width: 600px;
     .content-thumb{
 width: 350px;
     }
+    .aside-blok{
+        margin-left: 130px;
+        
+    }
+    .aside-box{
+        margin-left: 130px;
+    }
+    .aside-left{
+        margin-left: 60px;
+
+    }
+    .container .contact-item{
+        margin: 1px 25px;
+    }
+    
 }
 .content-title , .message-title{
     margin: 100px 0px;
