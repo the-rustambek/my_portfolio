@@ -350,6 +350,16 @@ width: 350px;
     .container .contact-item{
         margin: 1px 25px;
     }
+    .content-thumb{
+        border-radius:  20px;
+        width: 350px;
+        height: 250px;
+    }
+    .content-thumb:hover{
+        width: 370px;
+        height: 300px;
+        transition: 0.3s;
+    }
     
 }
 .content-title , .message-title{
