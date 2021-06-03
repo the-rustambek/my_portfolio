@@ -15,6 +15,7 @@ background-color: black;
     text-align: center;
     color: #FFAB1F;
 }
+
 .navbar-btn{
 color: white;
 font-weight:600;
@@ -74,7 +75,7 @@ margin-bottom: 80px;
     align-items: center;
 }
 .wrapper-text, .wrapper-title , .wrapper-job{
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 600;
     color:white;
 }
@@ -85,7 +86,7 @@ margin-bottom: 80px;
 .wrapper-info{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
 }
 .wrapper-about{
