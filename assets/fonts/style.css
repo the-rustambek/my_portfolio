@@ -99,7 +99,12 @@ border:2px solid black;
     font-size: 25px;
 }
 
-
+.close-button{
+    color:white;
+    background-color: red;
+    border: none;
+    border-radius: 1px;
+}
 
 .wrapper , .sidebar{
     margin-top: 100px;
@@ -221,9 +226,7 @@ border-radius: 50%;
     border-radius:50%;
 } */
 
-.container{
-    /* background-color: red; */
-}
+
 .box-avatar{
     border-radius: 10px;
     width: 90%;
