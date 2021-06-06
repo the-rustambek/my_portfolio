@@ -6,16 +6,55 @@ html{
 }
 body{
 background-color: black;
-/* position: relative; */
+position: relative;
 
 }
-/* .nav-overlay{
+
+.nav-overlay{
     position: absolute;
-    margin: 0;
- */
-/* } */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 150vh;
+    margin: 0px;
+    padding: 30px 0px 30px 0px;
+    
+}
 
+.overlay-list {
+    margin: 50px 0px 100px 0px;
+}
 
+.overlay-link {
+    display: block;
+    margin: 15px 0px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #b4b3b3;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 10px 0px;
+}
+
+.overlay-link:hover {
+    color: #EEBF63;
+    background-color: #555454;
+}
+
+.overlay-active {
+    color: #EEBF63;
+    background-color: #555454
+}
+.close-button {
+    outline: none;
+    border: none;
+    width: 25px;
+    background-color: #19191B;
+}
 .navbar-link, .wrapper-job , .wrapper-title{
     text-decoration: none;
     font-size: 20px;
