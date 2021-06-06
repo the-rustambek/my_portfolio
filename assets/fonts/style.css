@@ -6,7 +6,16 @@ html{
 }
 body{
 background-color: black;
+/* position: relative; */
+
 }
+/* .nav-overlay{
+    position: absolute;
+    margin: 0;
+ */
+/* } */
+
+
 .navbar-link, .wrapper-job , .wrapper-title{
     text-decoration: none;
     font-size: 20px;
@@ -50,6 +59,7 @@ border:2px solid black;
     width: 20px;
     font-size: 25px;
 }
+
 
 
 .wrapper , .sidebar{
