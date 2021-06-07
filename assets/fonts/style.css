@@ -5,9 +5,8 @@ html{
     margin-top: 20px;   
 }
 body{
-background-color: black;
+background-color:rgb(42, 40, 40);
 position: relative;
-
 
 }
 
@@ -54,7 +53,7 @@ position: relative;
     outline: none;
     border: none;
     width: 25px;
-    background-color: #19191B;
+    background-color:rgb(42, 40, 40);
 }
 .navbar-link, .wrapper-job , .wrapper-title{
     text-decoration: none;
@@ -71,7 +70,7 @@ font-weight:600;
 background-color:#FFAB1F;
 border-radius: 20px;
 padding: 5px 20px;
-border:2px solid black;
+border:2px solid rgb(42, 40, 40);
 }
 .navbar-btn:hover{
     color: #FFAB1F;
@@ -115,7 +114,7 @@ margin-bottom: 80px;
     background-image: url("/assets/img/BulletPoints.png"),url("/assets/img/AS.png");
     background-repeat: no-repeat;
     background-size: 20%,20%;
-    background-position: top 60% left 50%,top 42% left 25%;   
+    background-position: top 100% left 100%,top 42% left 25%;   
 }
 .wrapper-avatar{
     width: 380px;
@@ -243,9 +242,9 @@ margin-top: 50px;
 align-items: center;
 }
 .box-btn{
-    background-color: black;
+    background-color: rgb(42, 40, 40);
     border: none;
-    border: 1px solid black;
+    border: 1px solid rgb(42, 40, 40);
 }
 .box-btn .dot{
     margin:0px 20px;
@@ -263,7 +262,7 @@ align-items: center;
 .blok-title{
     text-align: center;
     margin: 30px 0px;
-    border: 2px solid black;
+    border: 2px solid rgb(42, 40, 40);
 }
 .blok-title:hover , .blok-info:hover{
     color: #FFAB1F;
@@ -274,7 +273,7 @@ align-items: center;
     padding: 20px;
     text-align: justify;
     letter-spacing: 1.2px;
-    border: 2px solid black;
+    border: 2px solid rgb(42, 40, 40);
 }
 .box, .aside, .blok{
     padding:100px 0px;
@@ -372,9 +371,8 @@ font-size: 30px;
     transition: 0.6s;
 }
 .content-thumb:hover{
-    width: 550px;
-    height: 280px;
-    transition: 0.6s;
+    transform: scale(0.85);
+    transition: 0.3s;
 }
 @media(max-width:990px){
     .container{
