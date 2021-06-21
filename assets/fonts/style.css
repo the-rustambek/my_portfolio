@@ -71,6 +71,7 @@ background-color:#FFAB1F;
 border-radius: 20px;
 padding: 5px 20px;
 border:2px solid rgb(42, 40, 40);
+
 }
 .navbar-btn:hover{
     color: #FFAB1F;
@@ -80,7 +81,7 @@ border:2px solid rgb(42, 40, 40);
     transition: 0.3s;
 }
 .navbar-link{
-    border:1px solid black;
+    border:1px solid rgb(42, 40, 40);
     padding: 5px 20px;
 }
 .navbar-link:hover{
@@ -183,7 +184,16 @@ margin-bottom: 80px;
     background-color: #FFAB1F;
     color: white;
     padding: 20px;
-    transition: 0.1s;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .sidebar-title{
     margin-bottom: 20px;
